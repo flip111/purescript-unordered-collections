@@ -1,0 +1,31 @@
+package:
+  name: unordered-collections-bench
+  run:
+    main: Bench.Main
+  dependencies:
+    - arrays
+    - console
+    - debug
+    - effect
+    - enums
+    - foreign-object
+    - functions
+    - integers
+    - lists
+    - minibench
+    - ordered-collections
+    - unordered-collections
+    - prelude
+    - psci-support
+    - quickcheck
+    - record
+    - st
+    - tuples
+    - typelevel-prelude
+    - unfoldable
+workspace:
+  package_set:
+    registry: 50.5.0
+  extra_packages:
+    unordered-collections:
+      path: ..
